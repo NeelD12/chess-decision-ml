@@ -1,0 +1,33 @@
+# Python
+venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Data (never commit large/raw datasets)
+data/raw/*
+data/interim/*
+data/processed/*
+!data/raw/.gitkeep
+!data/interim/.gitkeep
+!data/processed/.gitkeep
+
+# Models
+models/*.pkl
+models/*.json
+!models/.gitkeep
+
+# Stockfish binary
+/stockfish/
+*.exe
+
+# Pipeline run logs (regenerated every run_pipeline.bat run)
+logs/
+
+# Editor / OS
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Env
+.env
